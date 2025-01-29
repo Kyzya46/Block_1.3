@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="fonts/TTLakes/stylesheet.css">
+    <title>CPS</title>
+</head>
+<body>
+    <header class="header header__container">
+        <div class="header__button--burger">
+             <button type="button" class="menu-burger-button" aria-label="Открыть меню">
+                <span hidden>Открыть меню</span>
+             </button>
+        </div>
+        <div class="decorative__line decorative__line--left"></div>
+        <div class="logo logo__header">
+            <a href="#" aria-label="Посетить сайт компании" class="logo__link">
+                <img src="images/Group.svg" alt="Логотип компании">
+            </a>
+        </div>
+        <div class="header__container--menu">
+            <nav class="menu feedback__menu">
+                <ul class="menu__list menu__feedback">
+                    <li class="menu__item">
+                        <a href="#" aria-label="Позвонить" class="menu__link menu__link--call round-icon"></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" aria-label="Написать" class="menu__link menu__link--write round-icon"></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" aria-label="Личный кабинет" class="menu__link menu__link--link round-icon"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="decorative__line decorative__line--right"></div>
+        <div class="mobile__menu">
+            <nav class="menu menu--secondary">
+                <ul class="menu__list">
+                    <li class="menu__item menu__item--hidden-link">
+                        <button class="menu__button menu__button--status round-icon" aria-label="Статус ремонта">
+                        </button>
+                    </li>
+                    <li class="menu__item menu__item--hidden-link">
+                        <button class="menu__button menu__button--application round-icon" aria-label="Отправить заявку">
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__header">
+            <div class="main__title main__title--decaration dextop__header">
+                <h1 class="main__headline">Услуги и сервисы</h1>
+            </div>
+            <div class="dextop__menu">
+                <nav class="main__menu main__menu--hidden menu--secondary">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item--hidden-link ">
+                            <button class="menu__button button__status--icon">
+                                Статус ремонта 
+                                <img src="images/repair.svg" alt="Статус ремонта" class="button__status--icon">
+                            </button>
+                        </li>
+                        <li class="menu__item menu__item--hidden-link">
+                            <button class="menu__button button__status--application">
+                                Отправить заявку
+                                <img src="images/checkstatus.svg" alt="Отправить заявку" class="button__status--application">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>    
+            </div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item navigation__item--active dextop__header">
+                        <a href="#" class="navigation__link navigation__link--active" aria-label="Ремонтируемые бренды">Ремонтируемые бренды</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link navigation__link--hidden" aria-label="Дополнительные услуги">Дополнительные услуги</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link" aria-label="Ремонтируемые устройства">Ремонтируемые устройства</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link" aria-label="Цена на услуги">Цена на услуги</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link" aria-label="Адреса сервисных центров">Адреса сервисных центров</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link" aria-label="Специальные цены">Специальные цены</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link" aria-label="Отзывы">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="main__section">
+            <h2 hidden>Это главная секция</h2>
+            <article class="article">
+                <div class="article__content article__content--size text__container">
+                   <h3 hidden>О нас</h3>
+                    <span class="article__text article__text--size visible-text-">
+                        Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+                        отремонтировать свой ноутбук Dell с официальной гарантией производителя. 
+                    </span>
+                    <span class="article__text text__hidden-part hidden-text">Мы успешно работаем с 1992 года и заслужили репутацию
+                         надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам 
+                         обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                    </span>
+                    <button type="button" class="article__button button read-more-button">Читать далее</button>
+                </div>
+                <div class="image__container">
+                    <img src="images/foto_cps_1.png" alt="Это фото логотипа компании" class="article__image">
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
