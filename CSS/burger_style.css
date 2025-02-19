@@ -118,10 +118,6 @@ body {
     color: #7E7E82;
 }
 
-.languages {
-    text-transform: uppercase;
-}
-
 .footer__container {
     display: flex;
     gap: 16px;
@@ -158,15 +154,27 @@ body {
     
 }
 
-.language-switcher {
-    margin-bottom: 32px;
+.languages {
+    text-transform: uppercase;
+}
 
+.language-switcher {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+    display: flex;
+    gap: 7px;
+}
+
+.language-item {
+    display: inline-block;
 }
 
 .language-link {
     font-family: "TT Lakes", sans-serif;
     font-size: 16px;
     color: black;
+    text-decoration: none;
 }
 
 .language-link-active {
